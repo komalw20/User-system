@@ -1,0 +1,151 @@
+.menu-list a{
+		text-decoration: none;
+		color: black;
+	}
+		.logo img{
+           width: 169px;
+           height: 100%;
+           display: flex;
+           justify-content: center;
+           margin-top: 10px;
+
+		}
+		.menu{
+			min-width: height:90px;
+			border: 2px solid #69696954;
+		}
+		.menu-list{
+			float: left;
+			padding-right: 17px;
+			 margin-top: 16px;
+
+		}
+		.book-demo{
+			text-transform: uppercase;
+		    font-weight: 700;
+		    padding: 6px;
+		    border: 2px solid black;
+		    border-radius: 20px;
+		    margin-bottom: 7px;
+		}
+		.selected{
+			color: green;
+		}
+		.footer{
+			  text-decoration: none;
+    		  color: #fff !important;
+		}
+		.button{
+		  display:block;
+		  height: 300px;
+		  width: 300px;
+		  border-radius: 50%;
+		  border: 1px solid red;
+		  
+		}
+		.wrapper {
+    		padding: 70px 0px 0px 0px;
+		}
+		
+		.img-fluid {
+    max-width: 200%;
+    height: auto;
+}
+ .banner-wrapper{
+ 	min-height: 300px;
+ }
+ <!------- Contact Page CSS  ----->
+ .contact_page{
+    background-image: url(images/worldmap.png);
+    background-size: cover;
+    background-position: top;
+}
+
+.contact_info span i{
+    font-size: 20px;
+color: #1b4a95;
+
+}
+
+.contact_info p{
+    margin-bottom: 0;
+}
+
+
+.job_form{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: rgb(181 181 181 / 52%) 0px 1px 2px 0px;
+}
+
+.form_fields input{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+}
+
+.form_fields h3{
+    font-size: 1rem;
+    margin-bottom: 0;
+}
+
+.form_fields select{
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #cecece;
+    border-radius: 5px;
+}
+
+.form_fields textarea{
+    width: 100%;
+    padding: 5px;
+    margin: 8px 0;
+    outline: none;
+    border: 1px solid #cecece;
+    min-height: 150px;
+    border-radius: 5px;
+}
+
+.form_fields input:focus{    
+    border: 1px solid #2557a7;
+}
+
+.form_fields textarea:focus{    
+    border: 1px solid #2557a7;   
+
+}
+
+.form_fields input#myfile {
+    width: auto;
+    border: none;
+}
+
+.form_fields button{
+    width: 100%;
+    padding: 7px 20px;
+    border: none;
+    background-color: #2557a7;
+    color: #fff;
+    border-radius: 3px;    
+    /* margin-top: 15px; */
+
+}
+
+.form_fields button:hover{   
+    background-color: green;
+}
+
+.form_btn{
+    text-align: right;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
